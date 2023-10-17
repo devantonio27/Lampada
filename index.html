@@ -12,9 +12,10 @@
         <h1> Lampada DNC</h1>
     </header>
     <section>
-        <img src="/img/desligada.svg" alt=""> <br>
-        <input type="button" value="Ligar" class="botao">
-        <input type="button" value="Desligar" class="botao">
+        <img src="/img/desligada.svg" id="lampada" onclick="Quebrar()"> <br>
+        <input type="button" value="Ligar" class="botao" id="liga" onclick="Ligar()">
+        <input type="button" value="Desligar" class="botao" id="desliga" onclick="Desligar()">
     </section>
+    <script src="lampada.js"></script>
 </body>
 </html>
